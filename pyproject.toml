@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twitter-bot5"
+version = "0.1.0"
+description = ""
+authors = ["0xshodan <hngdean@gmail.com>"]
+readme = "README.md"
+packages = [{include = "twitter_bot5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.10.0"
+tweepy = "^4.14.0"
+fastapi-admin = {git = "https://github.com/0xshodan/fastapi-admin.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
