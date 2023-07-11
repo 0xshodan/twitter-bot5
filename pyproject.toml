@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "twitter_bot5"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 selenium = "^4.10.0"
 tweepy = "^4.14.0"
 fastapi-admin = {git = "https://github.com/0xshodan/fastapi-admin.git"}
